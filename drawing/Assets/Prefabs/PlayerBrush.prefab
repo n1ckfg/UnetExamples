@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 114548761651822972}
   - component: {fileID: 114182565579061220}
   m_Layer: 0
-  m_Name: Player
+  m_Name: PlayerBrush
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52,7 +52,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d60ed7e7e3ded364ea5ecc4422c76d37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  brushSize: 5
 --- !u!114 &114548761651822972
 MonoBehaviour:
   m_ObjectHideFlags: 1
