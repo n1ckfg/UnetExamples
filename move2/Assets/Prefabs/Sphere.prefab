@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 11400006}
   - component: {fileID: 11400776}
   - component: {fileID: 114780713235584706}
+  - component: {fileID: 114795284830275704}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -179,7 +180,7 @@ MonoBehaviour:
   runSpeed: 100
   accel: 0.01
   homePoint: {fileID: 0}
-  useMouse: 1
+  useMouse: 0
   showCursor: 0
   useButton: 1
   axes: 0
@@ -188,8 +189,19 @@ MonoBehaviour:
   mousePos: {x: 0, y: 0, z: 0}
   clicked: 0
   isDrawing: 0
-  useRaycaster: 1
+  useRaycaster: 0
   followMouse: 1
   isLooking: 0
   isLookingAt: 
   lastHitPos: {x: 1, y: 1, z: 1}
+--- !u!114 &114795284830275704
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc8632aa33be14639b0187d78ccb2ac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

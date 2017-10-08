@@ -165,5 +165,5 @@ public class BasicController :  NetworkBehaviour { //MonoBehaviour {
 			isLookingAt = "";
 		}
 	}
-		
+				
 }
